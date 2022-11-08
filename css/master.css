@@ -1,0 +1,140 @@
+body{
+  font-family: "Consolas", monaco, courier, monospace;
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 0.5rem;
+  background-color: #ffffff;
+}
+
+.header {
+  margin-left: 300px;
+  padding: 20px;
+  text-align: center;
+  background: #14213d;
+  color: white;
+  font-size: 30px;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #14213d;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #d55f5f;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #c17171;;
+  border: 1px solid;
+  transition: 1s;
+}
+
+
+.form {
+  margin-left: 300px;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-left: 20px;
+  text-align: left;
+  border: 2px solid;
+  width: 40%;
+  height: 50%;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #14213d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prev {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.prev a button{
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #14213d;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.prev a button:hover{
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #14213d;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.hyper{
+  float: right;
+  text-align: right;
+  margin-right: 30px;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.hyper a button{
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #14213d;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.hyper a button:hover{
+  padding: 12px 25px;
+  background-color: #fff;
+  color: #d55f5f;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+
+.highlight {
+  background-color: #fff;
+  color: black;
+}
