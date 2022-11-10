@@ -7,8 +7,8 @@
 Docker Installation instructions
 
 
-#. Navigate to directory and supply following command ``docker-compose up``.
-#. Let the instance spin up and then navigate to localhost at port 80 | http://localhost to access the lab.
+1. Navigate to directory and supply following command ``docker-compose up``.
+2. Let the instance spin up and then navigate to localhost at port 80 | http://localhost to access the lab.
 
 
 
