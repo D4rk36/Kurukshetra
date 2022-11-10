@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  php-apache-environment:
+    container_name: kurukshetra-1
+    image: phpdockerio/php56-fpm
+    volumes:
+      - ./:/var/www/html/
+    command:
+      - /bin/sh
+      - -c
+      - |
+        cd /var/www/html
+        php -S 0.0.0.0:80
+    ports:
+      - 80:80
+
