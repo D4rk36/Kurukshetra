@@ -32,11 +32,6 @@
       <div class="prev">
          <a class="prev" href="ch04.php"><button type="button">Previous Challenge</button></a>
       </div>
-      <div class="hyper">
-         <a href="ch06.php">
-           <button type="button">Next Challenge</button>
-         </a>
-      </div>
       <br><br><br><br>
 
 
