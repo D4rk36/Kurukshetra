@@ -24,7 +24,7 @@
 
     <div class="form">
     <form action="" method="post" name="form" onsubmit="filter()">
-      Provide Input: <input type="text" name="xss"><br>
+      Try Your XSS Payload? <input type="text" name="xss"><br>
       <input type="submit" name="submit" value="Submit">
 
       <br><br>

@@ -23,7 +23,7 @@
 
     <div class="form">
       <form class="" action="" method="post">
-        Provide Input: <input type="text" name="xss" value=""><br>
+        Try Your XSS Payload? <input type="text" name="xss" value=""><br>
         <input type="submit" name="submit" value="Submit"><br><br>
         <?php
           error_reporting(1);
@@ -39,11 +39,6 @@
             <a class="prev" href="ch01.php"><button type="button">Previous Challenge</button></a>
          </div>
 
-        <div class="hyper">
-           <a href="ch03.php">
-             <button type="button">Next Challenge</button>
-           </a>
-        </div>
         <br><br><br><br>
       </form>
     </div>

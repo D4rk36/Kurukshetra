@@ -24,7 +24,7 @@
 
     <div class="form">
       <form class="" action="" method="post">
-        Provide Input:  <input type="text" name="xss" value="<?php
+        Try Your XSS Payload?  <input type="text" name="xss" value="<?php
         if (isset($_POST['xss'])) {
           echo $_POST['xss'];
         }

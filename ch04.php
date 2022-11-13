@@ -23,7 +23,7 @@
 
     <div class="form">
       <form class="form-attr" action="" method="post">
-        Provide Input: <input type="text" name="xss" value="" maxlength="3"><br>
+        Try Your XSS Payload? <input type="text" name="xss" value="" maxlength="3"><br>
         <input type="submit" name="submit" value="Submit"> <br>
 
         <?php

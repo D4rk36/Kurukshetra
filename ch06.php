@@ -24,16 +24,16 @@
 
     <div class="form">
       <form class="" action="" method="post">
-        Provide Input:  <input type="text" name="xss" value=""><br>
+        Try Your XSS Payload?  <input type="text" name="xss" value=""><br>
         <input type="submit" name="submit" value="Submit">
 
       <br><br>
 
       <div class="prev">
-         <a class="prev" href="ch02.php"><button type="button">Previous Challenge</button></a>
+         <a class="prev" href="ch05.php"><button type="button">Previous Challenge</button></a>
       </div>
       <div class="hyper">
-         <a href="ch04.php">
+         <a href="ch07.php">
            <button type="button">Next Challenge</button>
          </a>
       </div>

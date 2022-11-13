@@ -18,8 +18,8 @@
       <a href="ch03.php">XSS Challenge 3</a>
       <a href="ch04.php">XSS Challenge 4</a>
       <a href="ch05.php">XSS Challenge 5</a>
-      <a href="ch06.php" class="highlight">XSS Challenge 6</a>
-      <a href="ch07.php">XSS Challenge 7</a>
+      <a href="ch06.php">XSS Challenge 6</a>
+      <a href="ch07.php" class="highlight">XSS Challenge 7</a>
     </div>
 
 HIDDEN HTML Parameters
@@ -27,7 +27,7 @@ HIDDEN HTML Parameters
 
     <div class="form">
       <form class="" action="" method="post">
-        Provide Input:  <input type="text" name="xss" value="<?php
+        Try Your XSS Payload? <input type="text" name="xss" value="<?php
         if (isset($_POST['xss'])) {
           echo $_POST['xss'];
         }
@@ -37,7 +37,7 @@ HIDDEN HTML Parameters
       <br><br>
 
       <div class="prev">
-         <a class="prev" href="ch02.php"><button type="button">Previous Challenge</button></a>
+         <a class="prev" href="ch06.php"><button type="button">Previous Challenge</button></a>
       </div>
       <div class="hyper">
          <a href="ch04.php">
