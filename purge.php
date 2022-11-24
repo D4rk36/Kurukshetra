@@ -12,7 +12,7 @@ $sql2 = "INSERT INTO `xss`.`comments` (id, data) VALUES (1, '')";
 
 
   if ($conn->query($sql) && $conn->query($sql1) && $conn->query($sql2) === TRUE) {
-    echo "<script> location.replace(\"ch00.php\"); </script>";
+    echo "<script> location.replace(\"ch01.php\"); </script>";
   } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
           }
