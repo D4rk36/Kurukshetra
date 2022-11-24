@@ -19,11 +19,12 @@
       <a href="ch04.php" class="highlight">XSS Challenge 4</a>
       <a href="ch05.php">XSS Challenge 5</a>
       <a href="ch06.php">XSS Challenge 6</a>
+      <a href="ch07.php">XSS Challenge 7</a>
     </div>
 
     <div class="form">
       <form class="" action="" method="post">
-        Provide Input:  <input type="text" name="xss" value="<?php
+        Try Your XSS Payload?  <input type="text" name="xss" value="<?php
         if (isset($_POST['xss'])) {
           echo $_POST['xss'];
         }

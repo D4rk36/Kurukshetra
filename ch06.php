@@ -19,17 +19,21 @@
       <a href="ch04.php">XSS Challenge 4</a>
       <a href="ch05.php">XSS Challenge 5</a>
       <a href="ch06.php" class="highlight">XSS Challenge 6</a>
+      <a href="ch07.php">XSS Challenge 7</a>
     </div>
 
     <div class="form">
     <form action="" method="post" name="form" onsubmit="filter()">
-      Provide Input: <input type="text" name="xss"><br>
+      Try Your XSS Payload? <input type="text" name="xss"><br>
       <input type="submit" name="submit" value="Submit">
 
       <br><br>
 
       <div class="prev">
          <a class="prev" href="ch05.php"><button type="button">Previous Challenge</button></a>
+      </div>
+      <div class="hyper">
+         <a href="ch07.php"><button type="button">Next Challenge</button></a>
       </div>
       <br><br><br><br>
 
