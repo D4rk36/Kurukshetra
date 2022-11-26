@@ -19,6 +19,11 @@
       <a href="ch05.php" class="highlight">XSS Challenge 5</a>
       <a href="ch06.php">XSS Challenge 6</a>
       <a href="ch07.php">XSS Challenge 7</a>
+      <a href="ch08.php">XSS Challenge 8</a>
+      <a href="ch09.php">XSS Challenge 9</a>
+      <a href="ch10.php">XSS Challenge 10</a>
+      <a href="ch11.php">XSS Challenge 11</a>
+      <a href="ch12.php">XSS Challenge 12</a>
     </div>
 
     <div class="form">
