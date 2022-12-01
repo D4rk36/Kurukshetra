@@ -29,7 +29,7 @@
 
     <div class="form">
     <form action="" method="post" name="form">
-      Try Your XSS Payload? <input type="text" name="xss"><br>
+      Try Your XSS Payload? <input type="text" maxlength="3" name="xss"><br>
       <br>
       <input type="submit" name="submit" value="Submit">
 
@@ -51,10 +51,8 @@
 
         if (isset($_POST['submit'])) {
 
-
           $xssPayload = $_POST['xss'];
-          $let = json_encode($xssPayload);
-          echo $let;
+          echo "Your XSS Payload $xssPayload";
 
         }
 
