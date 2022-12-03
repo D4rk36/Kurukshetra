@@ -52,7 +52,8 @@
         if (isset($_POST['submit'])) {
 
           $xssPayload = $_POST['xss'];
-          echo "Your XSS Payload $xssPayload";
+          $let = json_encode($xssPayload);
+          echo $let;
 
         }
 
