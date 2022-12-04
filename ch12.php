@@ -31,6 +31,8 @@
 			<a href="ch10.php">XSS Challenge 10</a>
 			<a href="ch11.php">XSS Challenge 11</a>
 			<a href="ch12.php" class="highlight">XSS Challenge 12</a>
+			<a href="ch13.php">XSS Challenge 13</a>
+			<a href="ch14.php">XSS Challenge 14</a>
     </div>
 
     <div class="form">
@@ -42,6 +44,9 @@
       <div class="prev">
          <a class="prev" href="ch11.php"><button type="button">Previous Challenge</button></a>
       </div>
+			<div class="hyper">
+				 <a href="ch13.php"><button type="button">Next Challenge</button></a>
+			</div>
 
       <br><br><br><br>
 

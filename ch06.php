@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="/css/master.css">
-    <script src="js/ch05.js" charset="utf-8"></script>
+    <script src="js/ch06.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <title>Challenge 6</title>
   </head>
@@ -25,6 +25,8 @@
       <a href="ch10.php">XSS Challenge 10</a>
       <a href="ch11.php">XSS Challenge 11</a>
       <a href="ch12.php">XSS Challenge 12</a>
+      <a href="ch13.php">XSS Challenge 13</a>
+      <a href="ch14.php">XSS Challenge 14</a>
     </div>
 
     <div class="form">

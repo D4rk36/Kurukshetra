@@ -25,11 +25,13 @@
       <a href="ch10.php" class="highlight">XSS Challenge 10</a>
       <a href="ch11.php">XSS Challenge 11</a>
       <a href="ch12.php">XSS Challenge 12</a>
+      <a href="ch13.php">XSS Challenge 13</a>
+      <a href="ch14.php">XSS Challenge 14</a>
     </div>
 
     <div class="form">
     <form action="" method="post" name="form">
-      Try Your XSS Payload? <input type="text" maxlength="3" name="xss"><br>
+      Try Your XSS Payload? <input type="text" name="xss"><br>
       <br>
       <input type="submit" name="submit" value="Submit">
 
