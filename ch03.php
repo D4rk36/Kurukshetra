@@ -30,6 +30,7 @@
 
     <div class="form">
       <form class="" action="" method="post">
+<<<<<<< HEAD
         Try Your XSS Payload? <input type="text" name="xss" value=""><br>
         <input type="submit" name="submit" value="Submit"><br><br>
         <?php
@@ -38,6 +39,14 @@
             $input = $_POST['xss'];
             echo preg_replace('/script|svg|img/i', '', $input);
           }
+=======
+        Try Your XSS Payload?  <input type="text" name="xss" value="<?php
+        if (isset($_POST['xss'])) {
+          echo $_POST['xss'];
+        }
+        ?>"><br>
+        <input type="submit" name="submit" value="Submit">
+>>>>>>> main
 
          ?>
          <br><br>
