@@ -27,12 +27,12 @@
       <a href="ch06.php">XSS Challenge 6</a>
       <a href="ch07.php">XSS Challenge 7</a>
       <a href="ch08.php">XSS Challenge 8</a>
-			<a href="ch09.php">XSS Challenge 9</a>
-			<a href="ch10.php">XSS Challenge 10</a>
-			<a href="ch11.php" class="highlight">XSS Challenge 11</a>
-			<a href="ch12.php">XSS Challenge 12</a>
-			<a href="ch13.php">XSS Challenge 13</a>
-			<a href="ch14.php">XSS Challenge 14</a>
+      <a href="ch09.php">XSS Challenge 9</a>
+      <a href="ch10.php">XSS Challenge 10</a>
+      <a href="ch11.php" class="highlight">XSS Challenge 11</a>
+      <a href="ch12.php">XSS Challenge 12</a>
+      <a href="ch13.php">XSS Challenge 13</a>
+      <a href="ch14.php">XSS Challenge 14</a>
     </div>
 
     <div class="form">
