@@ -29,30 +29,23 @@
     </div>
 
     <div class="form">
-<<<<<<< HEAD
       <form class="form-attr" action="" method="post">
         Try Your XSS Payload? <input type="text" name="xss" value="" maxlength="3"><br>
         <input type="submit" name="submit" value="Submit"> <br>
-=======
+
     <form action="" method="post" name="form" onsubmit="filter()">
       Try Your XSS Payload? <input type="text" name="xss"><br>
       <input type="submit" name="submit" value="Submit">
->>>>>>> main
-
         <?php
-
-<<<<<<< HEAD
           if (isset($_POST['xss'])) {
             echo $_POST['xss'];
           }
-=======
+         ?>
       <div class="prev">
          <a class="prev" href="ch04.php"><button type="button">Previous Challenge</button></a>
       </div>
       <br><br><br><br>
->>>>>>> main
-
-         ?>
+         
          <br><br><br>
 
          <div class="prev">
