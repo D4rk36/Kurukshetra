@@ -30,7 +30,6 @@
     </div>
 
     <div class="form">
-<<<<<<< HEAD
       <form class="" action="" method="post">
         Try Your XSS Payload?  <input type="text" name="xss" value="<?php
         if (isset($_POST['xss'])) {
@@ -38,13 +37,9 @@
         }
         ?>"><br>
         <input type="submit" name="submit" value="Submit">
-=======
       <form class="form-attr" action="" method="post">
         Try Your XSS Payload? <input type="text" name="xss" value="" maxlength="3"><br>
-        <input type="submit" name="submit" value="Submit"> <br>
->>>>>>> main
-
-      <br><br>
+        <input type="submit" name="submit" value="Submit"> <br><br><br>
 
       <div class="prev">
          <a class="prev" href="ch03.php"><button type="button">Previous Challenge</button></a>
@@ -57,8 +52,6 @@
       <br><br><br><br>
     </form>
   </div>
-
-
 
   </body>
 </html>
