@@ -74,7 +74,7 @@
       $user = 'root';
       $pass = 'rootpassword';
       $db = 'xss';
-      $conn = new mysqli($host, $user, $pass, $db);
+      $conn = @new mysqli($host, $user, $pass, $db);
 
       $sql = "SELECT data from comments";
       $result = $conn->query($sql);

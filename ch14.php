@@ -39,10 +39,9 @@
          <a class="prev" href="ch13.php"><button type="button">Previous Challenge</button></a>
       </div>
 
-      <br><br><br><br>
+      <br><br><br>
 
     </form>
-
 
 
   </body>

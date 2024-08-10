@@ -33,16 +33,15 @@
     <form action="" method="post" name="form">
       Try Your XSS Payload? <input type="text" name="xss" value="<?php
 
-          $input = $_POST['xss'];
-          $pattern = array();
-          $replace = array();
-          $pattern[0] = '/</';
-          $pattern[1] = '/>/';
-          $replace[0] = '&lt;';
-          $replace[1] = '&gt;';
+          if(isset($_POST['submit'])){
+            $input = $_POST['xss'];
+            $pattern = array('/</', '/>/');
+            $replace = array('&lt;', '&gt;');
+  
+            $replace = preg_replace($pattern, $replace, $input);
+            echo $replace;
+          }
 
-          $replace = preg_replace($pattern, $replace, $input);
-          echo $replace;
 
       ?>">
       <br>
